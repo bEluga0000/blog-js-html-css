@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.update-blog-container {
+  width: 95vw;
+  padding: 1rem;
+  min-height: 100%;
+}
+.update-blog-container textarea {
+  font-size: 1rem;
+  font-weight: 300;
+  justify-content: center;
+  border: none;
+  outline: none;
+  resize: none;
+  width: 100%;
+  height: 100%;
+}
+.update-blog-container button {
+  border-radius: 1rem;
+  font-size: 12px;
+  padding: 1px;
+}
+
+.publish-section {
+  margin-top: 1rem;
+}
+
+.publish-section .publish-checkbox {
+  display: inline;
+}
+
+.publish-section .publish-label {
+  display: inline;
+  font-weight: 700;
+}
+
+.publish-message {
+  color: red;
+}
+#appbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  height: 10vh;
+  background-color: #495E57;
+  color: whitesmoke;
+}
+
+.appbar-btns {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.appbar-btns button {
+  background-color: #FF9800;
+  color: whitesmoke;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.appbar-btns button:hover {
+  background-color: #F57C00;
+}
+
+.appbar-btns a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.appbar-btns a:hover {
+  text-decoration: underline;
+  color: #FFEB3B;
+}
+.appbar-logo {
+  cursor: pointer;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #495b5e;
+  color: #fff;
+  padding: 8px 0;
+  text-align: center;
+}

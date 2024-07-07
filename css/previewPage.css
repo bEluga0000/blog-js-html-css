@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.preview-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 88vh;
+  border: 1px solid black;
+  justify-content: center;
+  width: 100wh;
+}
+
+.blog-card {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  padding: 15px;
+}
+
+.display-blog-container {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.blog-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-title {
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+
+.blog-description {
+  margin-bottom: 0.5rem;
+}
+
+.blog-created-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.blog-image-container {
+  width: 30%; /* Adjust image width as needed */
+}
+
+.blog-image {
+  width: 100%; /* Make image fill its container */
+}
+
+.hr-divider {
+  margin-top: 1rem;
+}
+
+button {
+  border: none;
+  border-radius: 1rem;
+  font-size: 1rem;
+  padding: 10px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+#appbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  height: 10vh;
+  background-color: #495E57;
+  color: whitesmoke;
+}
+
+.appbar-btns {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.appbar-btns button {
+  background-color: #FF9800;
+  color: whitesmoke;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.appbar-btns button:hover {
+  background-color: #F57C00;
+}
+
+.appbar-btns a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.appbar-btns a:hover {
+  text-decoration: underline;
+  color: #FFEB3B;
+}
+
+.appbar-logo {
+  cursor: pointer;
+}
+.display-blog-container {
+    width: 100%;
+    padding: 15px;
+}
+
+.blog-title {
+    text-transform: capitalize;
+}
+
+.blog-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-created-info {
+    text-align: right;
+}
+
+.created-date {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.published-info {
+    font-size: 20px;
+    color: green;
+}
+
+.not-published-info {
+    font-size: 20px;
+    color: red;
+}
+
+.blog-description {
+    margin-top: 1rem;
+}
+
+.blog-content {
+    line-height: 1.5;
+    padding-bottom: 1rem;
+}
+
+.hr-divider {
+    margin-top: 1rem;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #495b5e;
+  color: #fff;
+  padding: 8px 0;
+  text-align: center;
+}

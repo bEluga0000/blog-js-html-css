@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.card-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.card-container h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card-container h6 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #666;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.text-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+}
+
+.password-toggle {
+    cursor: pointer;
+    margin-left: -30px;
+    padding: 10px;
+}
+
+.sign-up-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sign-up-btn:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-bottom: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+#appbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  height: 10vh;
+  background-color: #495E57;
+  color: whitesmoke;
+}
+
+.appbar-btns {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.appbar-btns button {
+  background-color: #FF9800;
+  color: whitesmoke;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.appbar-btns button:hover {
+  background-color: #F57C00;
+}
+
+.appbar-btns a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.appbar-btns a:hover {
+  text-decoration: underline;
+  color: #FFEB3B;
+}
+
+.appbar-logo {
+  cursor: pointer;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #495b5e;
+  color: #fff;
+  padding: 8px 0;
+  text-align: center;
+}

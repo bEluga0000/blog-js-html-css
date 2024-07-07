@@ -1,0 +1,104 @@
+/* createblog.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#root {
+    display: flex;
+    padding-top :20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 95%;
+    padding: 1rem;
+    position: absolute;
+    /* height: 100vh; */
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+}
+
+button {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+#appbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  height: 10vh;
+  background-color: #495E57;
+  color: whitesmoke;
+}
+
+.appbar-btns {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.appbar-btns button {
+  background-color: #FF9800;
+  color: whitesmoke;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.appbar-btns button:hover {
+  background-color: #F57C00;
+}
+
+.appbar-btns a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.appbar-btns a:hover {
+  text-decoration: underline;
+  color: #FFEB3B;
+}
+
+.appbar-logo {
+  cursor: pointer;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #495b5e;
+  color: #fff;
+  padding: 8px 0;
+  text-align: center;
+}

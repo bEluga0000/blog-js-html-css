@@ -1,0 +1,104 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog-card {
+    width: 70%;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.blog-card:hover {
+    background-color: #f0f0f0;
+}
+
+.blog-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.blog-date {
+    font-style: italic;
+    color: green;
+}
+
+.blog-description {
+    margin-top: 10px;
+}
+
+.update-button {
+    margin-top: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-button:hover {
+    background-color: darkorange;
+}
+#appbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  height: 10vh;
+  background-color: #495E57;
+  color: whitesmoke;
+}
+
+.appbar-btns {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.appbar-btns button {
+  background-color: #FF9800;
+  color: whitesmoke;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.appbar-btns button:hover {
+  background-color: #F57C00;
+}
+
+.appbar-btns a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.appbar-btns a:hover {
+  text-decoration: underline;
+  color: #FFEB3B;
+}
+
+.appbar-logo {
+  cursor: pointer;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #495b5e;
+  color: #fff;
+  padding: 8px 0;
+  text-align: center;
+}

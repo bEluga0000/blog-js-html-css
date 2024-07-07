@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+#root{
+  min-height: 76.8vh;
+}
+.user-options-container {
+  display: flex;
+  width: 80%;
+  justify-content: flex-start;
+  padding: 30px;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.user-options-container div {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.user-options-container hr {
+  margin: 10px 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+#appbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  height: 10vh;
+  background-color: #495E57;
+  color: whitesmoke;
+}
+
+.appbar-btns {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.appbar-btns button {
+  background-color: #FF9800;
+  color: whitesmoke;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.appbar-btns button:hover {
+  background-color: #F57C00;
+}
+
+.appbar-btns a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.appbar-btns a:hover {
+  text-decoration: underline;
+  color: #FFEB3B;
+}
+
+.appbar-logo {
+  cursor: pointer;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #495b5e;
+  color: #fff;
+  padding: 8px 0;
+  text-align: center;
+}

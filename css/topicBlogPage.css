@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.blogs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid black;
+  margin: 0.5rem;
+  box-shadow: none;
+}
+
+.card-title {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.card-created {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.card-desc {
+  margin-top: 10px;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #495b5e;
+  color: #fff;
+  padding: 8px 0;
+  text-align: center;
+}

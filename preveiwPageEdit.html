@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preview Component</title>
+<link rel="stylesheet" href="./css/previewPageEdit.css">
+</head>
+<body>
+  <div id="appbar"></div>
+<div id="root">
+  <div style="display:flex;min-height:88vh;border:1px solid black;justify-content:center;width:100wh;align-items:center">
+    <div class="grid-container">
+      <div class="left-column">
+        <h2>Story Preview</h2>
+        <textarea id="title" rows="2" maxlength="20" placeholder="Title.." style="font-size:1.2rem;font-weight:700;justify-content:center;border:none;outline:none;resize:none;width:100%;border-bottom:1px solid grey"></textarea>
+        <textarea id="desc" placeholder="Write a preview subtitle" rows="2" maxlength="20" style="font-size:1.2rem;font-weight:500;justify-content:center;border:none;outline:none;resize:none;border-bottom:1px solid grey"></textarea>
+      </div>
+      <div class="right-column">
+        <p>Publishing To : <span style="font-weight:800;font-size:1.2rem">Username</span></p>
+        <label for="topic">Select the topic of your story</label>
+        <select id="topic" name="topic" label="Topic">
+          <option value="Technology">Technology</option>
+          <option value="Data science">Data Science</option>
+          <option value="other">Other</option>
+        </select>
+        <p>Add or change topics so readers know what your story is about</p>
+        <button id="publishBtn" disabled>Publish now</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2024 BLOGOO</p>
+      </div>
+    </footer>
+<script src="./js/previewPageEdit.js"></script>
+</body>
+</html>
